@@ -1,0 +1,800 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		002568A95D0D6D18E12540B8 /* libAndroidObfuscatorCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2889A2C30ACB047F2C71921 /* libAndroidObfuscatorCore.a */; };
+		0871D743C1DDC6C81CDC86C7 /* NativeToolchainInspectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE709FDFABBE0764251D191 /* NativeToolchainInspectorTests.swift */; };
+		0E2B975C0BC891614E73AD26 /* StackRetracer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201AFC88E689463D1E9A43F7 /* StackRetracer.swift */; };
+		0FDAB0627A60B879ECF3087F /* BuiltInSourceProtectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8ADAA372F7706867369CAC /* BuiltInSourceProtectorTests.swift */; };
+		156A8E4ECF13E8EA7F219871 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D340E92D75B75EEB46F2E1 /* AboutView.swift */; };
+		1AB234A6CA4D9775A5E8F88E /* NavigationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01D3A28F77EAF4B20A76B0A /* NavigationUITests.swift */; };
+		3034856FD7A4AF9E0F56035B /* ProjectAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C9A56D057B322E10E208F0 /* ProjectAnalyzer.swift */; };
+		4325C536B1CA9B166D2C6987 /* StackRetracerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC67CB2B507ABEDAC4D29400 /* StackRetracerTests.swift */; };
+		449CC156178B1CE1B02904F1 /* HistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850CECED5FBA60D5096CD4A8 /* HistoryStore.swift */; };
+		46D0B717D9FB5DFEF2510588 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8C04CAD98662ACAB5C2347 /* Theme.swift */; };
+		4B49D80F56FF19E4E62E9A0A /* PipelinePlanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01696D3A968BC6E08BFAE9A /* PipelinePlanner.swift */; };
+		4BFE53F39475105D2E661919 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF128DC39F77E1731FE89BBE /* Models.swift */; };
+		4C27746D414AD08CA87888A7 /* JobProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D411F355A4795BC19EDA7B /* JobProgressView.swift */; };
+		4CF23EE5CA7D3C774CDD38C5 /* BuiltInSourceProtector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20E172CDA105A2829A5A561 /* BuiltInSourceProtector.swift */; };
+		5AE4434508CB27AC49648D98 /* ProjectAnalyzerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C11E258F4A9CE3607C83C1 /* ProjectAnalyzerTests.swift */; };
+		675CFCC51C1BCE443694410A /* PipelinePlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E2D8A5D614AFF479B268CF /* PipelinePlannerTests.swift */; };
+		68019B1A21BAF8154B7726A0 /* ToolchainLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F992D1B237FAE27F41A38F4F /* ToolchainLocator.swift */; };
+		6F4687BAC8C927D2322E949D /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A540411A125AC1203FAF5E58 /* DashboardView.swift */; };
+		78A4DA6B8F16BDAAAE71C18A /* AndroidObfuscatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA6D88B13BE70DB090A4C37 /* AndroidObfuscatorApp.swift */; };
+		7CD8CA93845EAD7CA12443EF /* NativeGradleWiring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF62947139C088257C0A730 /* NativeGradleWiring.swift */; };
+		83A76F5951F7696183293958 /* APKProtectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21A0EF757529D80D39506AA /* APKProtectionView.swift */; };
+		944F185CFB4BE343D8D45AF9 /* libAndroidObfuscatorCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2889A2C30ACB047F2C71921 /* libAndroidObfuscatorCore.a */; };
+		965E492C2B1B84BE43F2A928 /* NativeToolchainInspector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CD5B740474FA9519AEB25B /* NativeToolchainInspector.swift */; };
+		9C2387621BE544DDA80DDB70 /* SourceProtectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0301C1E9EC2B840DFF3D6BF7 /* SourceProtectionView.swift */; };
+		9C281042AD78E9BD974AE01B /* APKCertificateIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D40AA3BA739B7EB9AC7180 /* APKCertificateIdentity.swift */; };
+		9CC667B252762EA556B9FE2B /* HistoryStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B48DD5AD10073CB9BD406E /* HistoryStoreTests.swift */; };
+		A65311128E9DB5ACF5A077CF /* PipelineExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C5678A24C80DF141BA4EF2 /* PipelineExecutor.swift */; };
+		B10E789323772A70894E2A8F /* PipelineExecutorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18305E4760B9DD512F484BD /* PipelineExecutorTests.swift */; };
+		C88E3A30E74B7E13095048E9 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648CFB7FFFA3E16C8F016F69 /* HistoryView.swift */; };
+		D3254564C3D8C84DB345EE7D /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD25BF1E3A9BDAE39AF4509 /* RootView.swift */; };
+		E4BFF3A6FA47664650A0B3C1 /* MocikaShield in Resources */ = {isa = PBXBuildFile; fileRef = CE1557B1A52D6ACE711BAF4B /* MocikaShield */; };
+		EB89DC119BF63829E406354B /* PipelineModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633AAC1D2C50996D88AE8F20 /* PipelineModels.swift */; };
+		ECC0E829FA348AF829F3DF48 /* ToolchainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649649D5745FD1DC0C61935D /* ToolchainView.swift */; };
+		EE0F2709C3432C85394AE752 /* RetraceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C353D14D3AD3BE1D237FBD0 /* RetraceView.swift */; };
+		EE8517473B863B29279E0E38 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F741CC1DED1F772A7ADDDEE /* AppModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32241D80A1D0868B61FC8C03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AEBE04F7ABBE109043CFE59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F08A32193B6D1B022708073F;
+			remoteInfo = AndroidObfuscatorCore;
+		};
+		755D6595B0D8F1D86F6D3841 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AEBE04F7ABBE109043CFE59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F08A32193B6D1B022708073F;
+			remoteInfo = AndroidObfuscatorCore;
+		};
+		9D4F335C28E5AD7380B65969 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AEBE04F7ABBE109043CFE59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC8A1EF2D41C3B10D021F846;
+			remoteInfo = AndroidObfuscator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02D340E92D75B75EEB46F2E1 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		0301C1E9EC2B840DFF3D6BF7 /* SourceProtectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceProtectionView.swift; sourceTree = "<group>"; };
+		0EA6D88B13BE70DB090A4C37 /* AndroidObfuscatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndroidObfuscatorApp.swift; sourceTree = "<group>"; };
+		13CD5B740474FA9519AEB25B /* NativeToolchainInspector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeToolchainInspector.swift; sourceTree = "<group>"; };
+		201AFC88E689463D1E9A43F7 /* StackRetracer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackRetracer.swift; sourceTree = "<group>"; };
+		2342FF990E78099CFA0B953D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		26E2D8A5D614AFF479B268CF /* PipelinePlannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PipelinePlannerTests.swift; sourceTree = "<group>"; };
+		2C353D14D3AD3BE1D237FBD0 /* RetraceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetraceView.swift; sourceTree = "<group>"; };
+		3AE709FDFABBE0764251D191 /* NativeToolchainInspectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeToolchainInspectorTests.swift; sourceTree = "<group>"; };
+		58C5678A24C80DF141BA4EF2 /* PipelineExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PipelineExecutor.swift; sourceTree = "<group>"; };
+		5D8C04CAD98662ACAB5C2347 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		5EF62947139C088257C0A730 /* NativeGradleWiring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeGradleWiring.swift; sourceTree = "<group>"; };
+		633AAC1D2C50996D88AE8F20 /* PipelineModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PipelineModels.swift; sourceTree = "<group>"; };
+		648CFB7FFFA3E16C8F016F69 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		649649D5745FD1DC0C61935D /* ToolchainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolchainView.swift; sourceTree = "<group>"; };
+		70C9A56D057B322E10E208F0 /* ProjectAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectAnalyzer.swift; sourceTree = "<group>"; };
+		850CECED5FBA60D5096CD4A8 /* HistoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryStore.swift; sourceTree = "<group>"; };
+		85D40AA3BA739B7EB9AC7180 /* APKCertificateIdentity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APKCertificateIdentity.swift; sourceTree = "<group>"; };
+		98D411F355A4795BC19EDA7B /* JobProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobProgressView.swift; sourceTree = "<group>"; };
+		9F02FA59005FA4CE27B77D49 /* AndroidObfuscatorCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AndroidObfuscatorCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F741CC1DED1F772A7ADDDEE /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		A540411A125AC1203FAF5E58 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		B01D3A28F77EAF4B20A76B0A /* NavigationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationUITests.swift; sourceTree = "<group>"; };
+		B18305E4760B9DD512F484BD /* PipelineExecutorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PipelineExecutorTests.swift; sourceTree = "<group>"; };
+		B2889A2C30ACB047F2C71921 /* libAndroidObfuscatorCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAndroidObfuscatorCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC67CB2B507ABEDAC4D29400 /* StackRetracerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackRetracerTests.swift; sourceTree = "<group>"; };
+		CE1557B1A52D6ACE711BAF4B /* MocikaShield */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MocikaShield; path = Resources/MocikaShield; sourceTree = SOURCE_ROOT; };
+		D01696D3A968BC6E08BFAE9A /* PipelinePlanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PipelinePlanner.swift; sourceTree = "<group>"; };
+		D3B48DD5AD10073CB9BD406E /* HistoryStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryStoreTests.swift; sourceTree = "<group>"; };
+		D728834240FEEC038C79920F /* AndroidObfuscatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AndroidObfuscatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF8ADAA372F7706867369CAC /* BuiltInSourceProtectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuiltInSourceProtectorTests.swift; sourceTree = "<group>"; };
+		E10E9A978BD581916B6EE74E /* AndroidObfuscator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AndroidObfuscator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E20E172CDA105A2829A5A561 /* BuiltInSourceProtector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuiltInSourceProtector.swift; sourceTree = "<group>"; };
+		E21A0EF757529D80D39506AA /* APKProtectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APKProtectionView.swift; sourceTree = "<group>"; };
+		E8C11E258F4A9CE3607C83C1 /* ProjectAnalyzerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectAnalyzerTests.swift; sourceTree = "<group>"; };
+		ECD25BF1E3A9BDAE39AF4509 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		EF128DC39F77E1731FE89BBE /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		F992D1B237FAE27F41A38F4F /* ToolchainLocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolchainLocator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EE39472B5ACA0DD5D47D148 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002568A95D0D6D18E12540B8 /* libAndroidObfuscatorCore.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70E88828AAC4D8EE3E334F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				944F185CFB4BE343D8D45AF9 /* libAndroidObfuscatorCore.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		078B82238766AFED8664E73C /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D1CE8B87F395C8302454DF05 /* AndroidObfuscatorApp */,
+				65D51B3AC0A7D92F83F4FF55 /* AndroidObfuscatorCore */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		4AB3419D5580D193A3EA99C5 /* AndroidObfuscatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B01D3A28F77EAF4B20A76B0A /* NavigationUITests.swift */,
+			);
+			path = AndroidObfuscatorUITests;
+			sourceTree = "<group>";
+		};
+		4E2C38D6534850520BCAD1AA /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				98DCFFF91AB0E932A9AD9B8E /* AndroidObfuscatorCoreTests */,
+				4AB3419D5580D193A3EA99C5 /* AndroidObfuscatorUITests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		60BF4A4E63A325517F6839D9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE1557B1A52D6ACE711BAF4B /* MocikaShield */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		65D51B3AC0A7D92F83F4FF55 /* AndroidObfuscatorCore */ = {
+			isa = PBXGroup;
+			children = (
+				85D40AA3BA739B7EB9AC7180 /* APKCertificateIdentity.swift */,
+				E20E172CDA105A2829A5A561 /* BuiltInSourceProtector.swift */,
+				850CECED5FBA60D5096CD4A8 /* HistoryStore.swift */,
+				EF128DC39F77E1731FE89BBE /* Models.swift */,
+				5EF62947139C088257C0A730 /* NativeGradleWiring.swift */,
+				13CD5B740474FA9519AEB25B /* NativeToolchainInspector.swift */,
+				58C5678A24C80DF141BA4EF2 /* PipelineExecutor.swift */,
+				633AAC1D2C50996D88AE8F20 /* PipelineModels.swift */,
+				D01696D3A968BC6E08BFAE9A /* PipelinePlanner.swift */,
+				70C9A56D057B322E10E208F0 /* ProjectAnalyzer.swift */,
+				201AFC88E689463D1E9A43F7 /* StackRetracer.swift */,
+				F992D1B237FAE27F41A38F4F /* ToolchainLocator.swift */,
+			);
+			path = AndroidObfuscatorCore;
+			sourceTree = "<group>";
+		};
+		86247DA77B5C4E02FC06D910 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E10E9A978BD581916B6EE74E /* AndroidObfuscator.app */,
+				9F02FA59005FA4CE27B77D49 /* AndroidObfuscatorCoreTests.xctest */,
+				D728834240FEEC038C79920F /* AndroidObfuscatorUITests.xctest */,
+				B2889A2C30ACB047F2C71921 /* libAndroidObfuscatorCore.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98DCFFF91AB0E932A9AD9B8E /* AndroidObfuscatorCoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF8ADAA372F7706867369CAC /* BuiltInSourceProtectorTests.swift */,
+				D3B48DD5AD10073CB9BD406E /* HistoryStoreTests.swift */,
+				3AE709FDFABBE0764251D191 /* NativeToolchainInspectorTests.swift */,
+				B18305E4760B9DD512F484BD /* PipelineExecutorTests.swift */,
+				26E2D8A5D614AFF479B268CF /* PipelinePlannerTests.swift */,
+				E8C11E258F4A9CE3607C83C1 /* ProjectAnalyzerTests.swift */,
+				CC67CB2B507ABEDAC4D29400 /* StackRetracerTests.swift */,
+			);
+			path = AndroidObfuscatorCoreTests;
+			sourceTree = "<group>";
+		};
+		D1CE8B87F395C8302454DF05 /* AndroidObfuscatorApp */ = {
+			isa = PBXGroup;
+			children = (
+				02D340E92D75B75EEB46F2E1 /* AboutView.swift */,
+				0EA6D88B13BE70DB090A4C37 /* AndroidObfuscatorApp.swift */,
+				E21A0EF757529D80D39506AA /* APKProtectionView.swift */,
+				9F741CC1DED1F772A7ADDDEE /* AppModel.swift */,
+				A540411A125AC1203FAF5E58 /* DashboardView.swift */,
+				648CFB7FFFA3E16C8F016F69 /* HistoryView.swift */,
+				2342FF990E78099CFA0B953D /* Info.plist */,
+				98D411F355A4795BC19EDA7B /* JobProgressView.swift */,
+				2C353D14D3AD3BE1D237FBD0 /* RetraceView.swift */,
+				ECD25BF1E3A9BDAE39AF4509 /* RootView.swift */,
+				0301C1E9EC2B840DFF3D6BF7 /* SourceProtectionView.swift */,
+				5D8C04CAD98662ACAB5C2347 /* Theme.swift */,
+				649649D5745FD1DC0C61935D /* ToolchainView.swift */,
+			);
+			path = AndroidObfuscatorApp;
+			sourceTree = "<group>";
+		};
+		E4DFF525440794981C25E587 = {
+			isa = PBXGroup;
+			children = (
+				60BF4A4E63A325517F6839D9 /* Resources */,
+				078B82238766AFED8664E73C /* Sources */,
+				4E2C38D6534850520BCAD1AA /* Tests */,
+				86247DA77B5C4E02FC06D910 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		235E147D5A55A7D51DB94667 /* AndroidObfuscatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C949C05D07E2252785FB2860 /* Build configuration list for PBXNativeTarget "AndroidObfuscatorUITests" */;
+			buildPhases = (
+				7CDDCE1FB63BF082CE139FA9 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BF61C90B0E3D269E5308158 /* PBXTargetDependency */,
+			);
+			name = AndroidObfuscatorUITests;
+			packageProductDependencies = (
+			);
+			productName = AndroidObfuscatorUITests;
+			productReference = D728834240FEEC038C79920F /* AndroidObfuscatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		BC8A1EF2D41C3B10D021F846 /* AndroidObfuscator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A22E4A372F06A0DDAEB6DC4 /* Build configuration list for PBXNativeTarget "AndroidObfuscator" */;
+			buildPhases = (
+				DA4E4D698707BFB43C20159D /* Sources */,
+				B43A8A079E974DDE7DE7BB58 /* Resources */,
+				1EE39472B5ACA0DD5D47D148 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A2F6F2A9A7C79269D72E4A7 /* PBXTargetDependency */,
+			);
+			name = AndroidObfuscator;
+			packageProductDependencies = (
+			);
+			productName = AndroidObfuscator;
+			productReference = E10E9A978BD581916B6EE74E /* AndroidObfuscator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED7934FBBABFC1A485BD5F15 /* AndroidObfuscatorCoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92D89341A58BDBE63F303F00 /* Build configuration list for PBXNativeTarget "AndroidObfuscatorCoreTests" */;
+			buildPhases = (
+				351043722B01DF321ECAC0C5 /* Sources */,
+				E70E88828AAC4D8EE3E334F9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7970D8EC591F081A238C471A /* PBXTargetDependency */,
+			);
+			name = AndroidObfuscatorCoreTests;
+			packageProductDependencies = (
+			);
+			productName = AndroidObfuscatorCoreTests;
+			productReference = 9F02FA59005FA4CE27B77D49 /* AndroidObfuscatorCoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F08A32193B6D1B022708073F /* AndroidObfuscatorCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC36109534484AAEF78DB210 /* Build configuration list for PBXNativeTarget "AndroidObfuscatorCore" */;
+			buildPhases = (
+				8C29EF7EFE9AE53D878C98D1 /* Sources */,
+				6C14381D83E5B9D3A09752CA /* Copy Swift Objective-C Interface Header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AndroidObfuscatorCore;
+			packageProductDependencies = (
+			);
+			productName = AndroidObfuscatorCore;
+			productReference = B2889A2C30ACB047F2C71921 /* libAndroidObfuscatorCore.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AEBE04F7ABBE109043CFE59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					235E147D5A55A7D51DB94667 = {
+						ProvisioningStyle = Manual;
+						TestTargetID = BC8A1EF2D41C3B10D021F846;
+					};
+					BC8A1EF2D41C3B10D021F846 = {
+						ProvisioningStyle = Manual;
+					};
+					ED7934FBBABFC1A485BD5F15 = {
+						ProvisioningStyle = Manual;
+					};
+					F08A32193B6D1B022708073F = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = C7BC4404F48DC270D1FF118E /* Build configuration list for PBXProject "AndroidObfuscator" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = E4DFF525440794981C25E587;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 86247DA77B5C4E02FC06D910 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC8A1EF2D41C3B10D021F846 /* AndroidObfuscator */,
+				F08A32193B6D1B022708073F /* AndroidObfuscatorCore */,
+				ED7934FBBABFC1A485BD5F15 /* AndroidObfuscatorCoreTests */,
+				235E147D5A55A7D51DB94667 /* AndroidObfuscatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B43A8A079E974DDE7DE7BB58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4BFF3A6FA47664650A0B3C1 /* MocikaShield in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C14381D83E5B9D3A09752CA /* Copy Swift Objective-C Interface Header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(DERIVED_SOURCES_DIR)/$(SWIFT_OBJC_INTERFACE_HEADER_NAME)",
+			);
+			name = "Copy Swift Objective-C Interface Header";
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/include/$(PRODUCT_MODULE_NAME)/$(SWIFT_OBJC_INTERFACE_HEADER_NAME)",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "ditto \"${SCRIPT_INPUT_FILE_0}\" \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		351043722B01DF321ECAC0C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FDAB0627A60B879ECF3087F /* BuiltInSourceProtectorTests.swift in Sources */,
+				9CC667B252762EA556B9FE2B /* HistoryStoreTests.swift in Sources */,
+				0871D743C1DDC6C81CDC86C7 /* NativeToolchainInspectorTests.swift in Sources */,
+				B10E789323772A70894E2A8F /* PipelineExecutorTests.swift in Sources */,
+				675CFCC51C1BCE443694410A /* PipelinePlannerTests.swift in Sources */,
+				5AE4434508CB27AC49648D98 /* ProjectAnalyzerTests.swift in Sources */,
+				4325C536B1CA9B166D2C6987 /* StackRetracerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CDDCE1FB63BF082CE139FA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB234A6CA4D9775A5E8F88E /* NavigationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C29EF7EFE9AE53D878C98D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C281042AD78E9BD974AE01B /* APKCertificateIdentity.swift in Sources */,
+				4CF23EE5CA7D3C774CDD38C5 /* BuiltInSourceProtector.swift in Sources */,
+				449CC156178B1CE1B02904F1 /* HistoryStore.swift in Sources */,
+				4BFE53F39475105D2E661919 /* Models.swift in Sources */,
+				7CD8CA93845EAD7CA12443EF /* NativeGradleWiring.swift in Sources */,
+				965E492C2B1B84BE43F2A928 /* NativeToolchainInspector.swift in Sources */,
+				A65311128E9DB5ACF5A077CF /* PipelineExecutor.swift in Sources */,
+				EB89DC119BF63829E406354B /* PipelineModels.swift in Sources */,
+				4B49D80F56FF19E4E62E9A0A /* PipelinePlanner.swift in Sources */,
+				3034856FD7A4AF9E0F56035B /* ProjectAnalyzer.swift in Sources */,
+				0E2B975C0BC891614E73AD26 /* StackRetracer.swift in Sources */,
+				68019B1A21BAF8154B7726A0 /* ToolchainLocator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA4E4D698707BFB43C20159D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A76F5951F7696183293958 /* APKProtectionView.swift in Sources */,
+				156A8E4ECF13E8EA7F219871 /* AboutView.swift in Sources */,
+				78A4DA6B8F16BDAAAE71C18A /* AndroidObfuscatorApp.swift in Sources */,
+				EE8517473B863B29279E0E38 /* AppModel.swift in Sources */,
+				6F4687BAC8C927D2322E949D /* DashboardView.swift in Sources */,
+				C88E3A30E74B7E13095048E9 /* HistoryView.swift in Sources */,
+				4C27746D414AD08CA87888A7 /* JobProgressView.swift in Sources */,
+				EE0F2709C3432C85394AE752 /* RetraceView.swift in Sources */,
+				D3254564C3D8C84DB345EE7D /* RootView.swift in Sources */,
+				9C2387621BE544DDA80DDB70 /* SourceProtectionView.swift in Sources */,
+				46D0B717D9FB5DFEF2510588 /* Theme.swift in Sources */,
+				ECC0E829FA348AF829F3DF48 /* ToolchainView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BF61C90B0E3D269E5308158 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC8A1EF2D41C3B10D021F846 /* AndroidObfuscator */;
+			targetProxy = 9D4F335C28E5AD7380B65969 /* PBXContainerItemProxy */;
+		};
+		4A2F6F2A9A7C79269D72E4A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F08A32193B6D1B022708073F /* AndroidObfuscatorCore */;
+			targetProxy = 32241D80A1D0868B61FC8C03 /* PBXContainerItemProxy */;
+		};
+		7970D8EC591F081A238C471A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F08A32193B6D1B022708073F /* AndroidObfuscatorCore */;
+			targetProxy = 755D6595B0D8F1D86F6D3841 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1C65284F8A693DEE6790969F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.androidobfuscator.AndroidObfuscatorCore;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2D881CBD1669BA1A533D3FC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.androidobfuscator.uitests;
+				SDKROOT = macosx;
+				TEST_TARGET_NAME = AndroidObfuscator;
+			};
+			name = Debug;
+		};
+		2F7C09E8E246227B6E4D26E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.androidobfuscator.tests;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5741E5B29F942581075BF5D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5BED53B42672B36844F08E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Sources/AndroidObfuscatorApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.androidobfuscator.app;
+				PRODUCT_NAME = AndroidObfuscator;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6D8FDB8A7F6A9521119DE938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.androidobfuscator.uitests;
+				SDKROOT = macosx;
+				TEST_TARGET_NAME = AndroidObfuscator;
+			};
+			name = Release;
+		};
+		7E28AD6A58C867F111C8FE5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.androidobfuscator.AndroidObfuscatorCore;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7F9286CBEE492CFFC8DE18C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		90F699F8CEC60CBAF72CBB53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.androidobfuscator.tests;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D573F7CDE32FC94011084DFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Sources/AndroidObfuscatorApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.androidobfuscator.app;
+				PRODUCT_NAME = AndroidObfuscator;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A22E4A372F06A0DDAEB6DC4 /* Build configuration list for PBXNativeTarget "AndroidObfuscator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D573F7CDE32FC94011084DFF /* Debug */,
+				5BED53B42672B36844F08E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		92D89341A58BDBE63F303F00 /* Build configuration list for PBXNativeTarget "AndroidObfuscatorCoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F7C09E8E246227B6E4D26E0 /* Debug */,
+				90F699F8CEC60CBAF72CBB53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C7BC4404F48DC270D1FF118E /* Build configuration list for PBXProject "AndroidObfuscator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F9286CBEE492CFFC8DE18C3 /* Debug */,
+				5741E5B29F942581075BF5D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C949C05D07E2252785FB2860 /* Build configuration list for PBXNativeTarget "AndroidObfuscatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D881CBD1669BA1A533D3FC7 /* Debug */,
+				6D8FDB8A7F6A9521119DE938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CC36109534484AAEF78DB210 /* Build configuration list for PBXNativeTarget "AndroidObfuscatorCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E28AD6A58C867F111C8FE5D /* Debug */,
+				1C65284F8A693DEE6790969F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AEBE04F7ABBE109043CFE59 /* Project object */;
+}

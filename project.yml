@@ -1,0 +1,80 @@
+name: AndroidObfuscator
+options:
+  bundleIdPrefix: dev.androidobfuscator
+  deploymentTarget:
+    macOS: "14.0"
+  createIntermediateGroups: true
+  generateEmptyDirectories: true
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    MACOSX_DEPLOYMENT_TARGET: "14.0"
+    CODE_SIGN_STYLE: Manual
+    CODE_SIGN_IDENTITY: "-"
+    ENABLE_HARDENED_RUNTIME: NO
+    SWIFT_STRICT_CONCURRENCY: targeted
+targets:
+  AndroidObfuscatorCore:
+    type: library.static
+    platform: macOS
+    sources:
+      - path: Sources/AndroidObfuscatorCore
+    settings:
+      base:
+        DEFINES_MODULE: YES
+        SKIP_INSTALL: YES
+
+  AndroidObfuscator:
+    type: application
+    platform: macOS
+    sources:
+      - path: Sources/AndroidObfuscatorApp
+      - path: Resources/MocikaShield
+        type: folder
+        buildPhase: resources
+    dependencies:
+      - target: AndroidObfuscatorCore
+    info:
+      path: Sources/AndroidObfuscatorApp/Info.plist
+      properties:
+        CFBundleDisplayName: 守界 Android
+        CFBundleName: AndroidObfuscator
+        CFBundleShortVersionString: "1.1.0"
+        CFBundleVersion: "1"
+        LSMinimumSystemVersion: "14.0"
+        NSHumanReadableCopyright: "Local Android build protection workbench"
+        NSHighResolutionCapable: true
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: dev.androidobfuscator.app
+        PRODUCT_NAME: AndroidObfuscator
+        INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.developer-tools
+    scheme:
+      testTargets:
+        - AndroidObfuscatorCoreTests
+        - AndroidObfuscatorUITests
+      gatherCoverageData: true
+
+  AndroidObfuscatorCoreTests:
+    type: bundle.unit-test
+    platform: macOS
+    sources:
+      - path: Tests/AndroidObfuscatorCoreTests
+    dependencies:
+      - target: AndroidObfuscatorCore
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: dev.androidobfuscator.tests
+        GENERATE_INFOPLIST_FILE: YES
+
+  AndroidObfuscatorUITests:
+    type: bundle.ui-testing
+    platform: macOS
+    sources:
+      - path: Tests/AndroidObfuscatorUITests
+    dependencies:
+      - target: AndroidObfuscator
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: dev.androidobfuscator.uitests
+        GENERATE_INFOPLIST_FILE: YES

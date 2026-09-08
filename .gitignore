@@ -1,0 +1,16 @@
+.DS_Store
+.build/
+DerivedData/
+build/
+Build/
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+
+# Never commit signing material or local secrets.
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.mobileprovision
+*.env
